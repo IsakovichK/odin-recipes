@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    width: 95%;
+    margin: auto;
+    background-color: beige;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.home {
+    color: rgb(77, 139, 68);
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page {
+    color: rgb(130, 203, 118);
+    font-size: 24px;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    color: rgb(77,139,50);
+    font-size: 48px;
+}
+
+.body {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.image {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.home.link {
+    display: inline-block;
+    text-align: left;
+    margin: 5px;
+}
